@@ -17,6 +17,11 @@ npm run build    # type-check + production build
 npm run lint
 ```
 
+## Deploy
+
+Every push to `main` is linted, built and deployed to GitHub Pages by
+[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+
 ## Where things live
 
 | Path | What |
